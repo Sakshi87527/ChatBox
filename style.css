@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.body {
+    flex: 1;
+    height: 600px;
+    color: white;
+    background-color: rgb(233, 233, 233);
+    padding: 20px 30px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* To space the columns evenly */
+    background-color: whitesmoke;
+    width: 60%;
+    margin: auto;
+    height: 700px;
+    box-shadow: 2px 2px 2px rgb(224, 224, 194);
+}
+.blockcard {
+    height: 595;
+    width: 50%;
+    background-color: whitesmoke;
+    margin: 4px;
+
+
+
+
+  }
+  .nav-bar {
+    height: 65px;
+    width: 100%;
+    background-color: blue;
+    margin-inline-start: auto;
+    margin-top: 1px;
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  .image {
+
+    height: 90px;
+    width: 90px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-color: white;
+    border-image: 2px solid white;
+
+  }
+  h2 {
+    color: white;
+    
+    margin-top:10px;
+    
+  }
+  .icon {
+    height: 70px;
+    width: 40px;
+    color: white;
+    margin-top: 10px;
+
+  }
+
+
+.column {
+    flex: 1;
+    /* Make both columns flexible */
+    margin: 10px;
+    /* Add spacing between columns */
+    width: 50%;
+    height: 500px;
+    margin-right: 20px;
+    background-color: whitesmoke;
+
+
+}
+.blockimg {
+    margin-top: 100px;
+    height: 390px;
+    width: 55%;
+    color: rgb(38, 136, 234);
+    margin-left: 110px;
+
+}
+
+
+.contact-nav{
+    background-color: rgb(68, 114, 196);
+    height: 40px;
+    width: 90%;
+    display: flex;
+    border-radius: 5px;
+    padding-left: 14px;
+    padding-top: 14px;
+    padding-right: 14px;
+}
+
+.contact-nav a{
+    color: azure;
+    text-align: left;
+    text-decoration: none;
+    font-size: 20px;
+    float: none;
+    display: inline-block;
+}
+
+.social-media{
+    float: right;
+    padding-left: 70px;
+}
+
+
+
+
+h4 {
+    color: white;
+}
+
+
+
+
+h3 {
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: 23px;
+    padding-top: 35px;
+    padding-left: 35px;
+}
+
+
+
+
+.navbar-right {
+    float: right;
+    margin-top: 5px;
+}
+
+.arrow,.close {
+    background: none;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-left: 5px;
+    color: rgb(255, 251, 251);
+}
+
+span {
+    color: grey;
+    padding-left: 70px;
+    font-size:12px;
+}
+
+.chat-time {
+    float: right;
+    color: gray;
+    font-size: x-small;
+}
+
+.message {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    width: fit-content;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.user_message {
+    margin-left: auto;
+    background-color: rgba(190, 185, 185, 0.861);
+    color: black;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    width: 150%;
+}
+
+.clip,.smile {
+    background: none;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 5px;
+    color: rgb(105, 105, 105);
+}
+
+span u {
+    color: grey;
+    padding-top: 10px;
+    padding-right: 0px;
+    font-size: 12px;
+}
+
+
+.volumeup,
+.external {
+    background: none;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 5px;
+    color: grey;
+}
+
+
+
+
+
+
+
+
+
